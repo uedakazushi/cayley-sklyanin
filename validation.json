@@ -1,0 +1,33 @@
+{
+  "status": "initial content saved",
+  "source_head": "3526f7aeec6a5432e57a42a06d284bf06d6a2a8d",
+  "source_assets": {
+    ".latexmkrc": "64566ca56d832fdb2ebede8f0968bb626727a272ae807659e39c9ff36ed689ce",
+    "computations/verify_quotient_exact_tails.py": "86df56c58c0299cfc3b652fe863a21de55ca690cc6e8c397bbd25b5afc9bd841",
+    "papers/sections/central_quotient_simple_representations.tex": "7ddfa78458c4205c4121dd9a75a8ea27e1f65c44b990bfce1d37d36105b7edd3",
+    "papers/sections/central_quotient_global_regularity.tex": "e128aad7ee47f53822406ddd10969d7c666f5da56fc57a6e7c410e90d356e5a1",
+    "computations/verify_central_quotient_extensions.py": "6da8b840c9c9fc05581b85ca675eaff0a174ea73b55e829507ca1442345439dc",
+    "papers/sections/central_quotient_chart_gluing.tex": "e431e8753741ca4869e040c1f4863bfd1645df47a03078688091b281c834970a",
+    "papers/central_fiber_discriminant.tex": "ed8146f86d4bd82c33b5bf19d66068ef441004c9b7642abfa15b814054eb9014",
+    "computations/verify_central_quotient_reps.py": "33a5be6e99ad1e41e8659bf420db88f63bd2c148bc7aa35c57763969c4a5479e",
+    "papers/sections/central_quotient_cayley_geometry.tex": "7779a10c9031d59813c5c00bdcbb9b7de7e3a7ddbb87eb61e8e737f1a938f622",
+    "computations/verify_center_phi_exact.py": "26244d1592d55e00763322eb64010f6c241e1ad83758063937e443c672c83f6e",
+    "computations/verify_central_quotient_koszul.py": "1dcddd9db0a1696f743217cbfd41fec1313551850750dcbe629d6a15ff8510c9",
+    "computations/verify_center_parity_candidates.py": "6eb5b45dde3432d0fc1b3bc16b416e3e2b6e4446d3e53c128e9d57de7db78e4f",
+    "papers/sections/central_quotient_categories_and_twist.tex": "7f9a23707cf419ad1b433f209931352ade08edbb0c8a4a5233a3e1f86416daad",
+    "papers/sections/central_quotient_pbw_cy.tex": "77e3f63ac2c55a05d9758474cd56a5888d9c3ea00aec1199489bb6e3eca1f8fd",
+    "computations/verify_central_quotient_local_hessian.py": "561b2acd0c57fb3139d66a8684ac198848535bbd49460f157782f56bc4808a25",
+    "papers/sections/central_quotient_exact_tails.tex": "90bb6d0eb97b8251b9070c8f558282686bf15701a2c05950f1afde8b5a9fa6cf",
+    "computations/verify_center_degree7.py": "830475cbb4f597ab0791c246f3e70d9fc95d8019d8106cb4830953fd2cf1b1d8",
+    "computations/verify_central_symmetry.py": "e648b6e3b09f3d07b30ec07cd0688b62cae45f698e85111e55a24d8bf808177e",
+    "papers/sections/central_quotient_center_azumaya.tex": "42ac2df35b23c4e9fbaefc30e8dadfa5f4f4d66706cd463e0863ee5ccbe7fb00",
+    "computations/verify_central_fiber_discriminant.py": "b178a2c6ed555df93c9b25f56da8bd829395ec0fb20cc08ed8d5f4bfa3d410f8",
+    "computations/verify_center_homogeneous_symbols.py": "24963c41632138494d7093d0b43ed1101d978bd21f18d7b0f1195f09ccd156d7",
+    "computations/verify_center_weight18_mod101.py": "deebd7e754fbd0cc7c44f432766944c640254301b6070c708896d0d055aef7b1",
+    ".vscode/settings.json": "f94c8e6722ff4e53cdb81ffa1adab7c40c8eb5d6c908a4c8d94fd261e5e75acc",
+    "papers/central_quotient_local_models.tex": "8e1e4c5017655fc8310b9446d03d424784bcb9f2cbff64d98cd6f8a3ae4afed9",
+    "computations/verify_central_quotient_global_geometry.py": "76a5eea1c060aabd5f1a8f25e1c60dbede1ff1d573d3965c676171d8fe461439",
+    ".gitignore": "4767979de392cb8e90d85da654b9e988fe509c8aeb439a82ecefc157a394e470"
+  },
+  "mathematical_full_independent_audit": false
+}
