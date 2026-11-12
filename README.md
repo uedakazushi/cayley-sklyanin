@@ -12,3 +12,5 @@ python3 computations/verify_center_phi_exact.py --backend flint --run-all --veri
 ```
 
 日本語LuaLaTeX・LuaTeX-ja・HaranoAji・latexmk、Python3・SymPyを用いる。重い有理数検算の高速backendはpython-flint（標準Fraction版も保持）。PDF・SyncTeX・計算状態はbuild/で非追跡。VS Codeの既定LaTeX Workshop recipeを使える。Actions・force pushなし。
+
+移管先で主論文41頁・補助稿3頁を全文組版・全頁描画しレイアウトを確認した。各稿の入力・参照・引用は独立に閉じ、未解決・重複・overfull・文字欠落は0。次数18のdim1330・3751語のPhi=0を有理数上で再計算した。実行範囲と未監査項目は `validation.json`。

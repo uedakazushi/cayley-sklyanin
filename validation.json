@@ -1,5 +1,5 @@
 {
-  "status": "Destination verified; source cleanup follows remote confirmation",
+  "status": "COMPLETE: source dedicated assets retired after destination runtime validation",
   "source_head": "3526f7aeec6a5432e57a42a06d284bf06d6a2a8d",
   "source_assets": {
     ".latexmkrc": "64566ca56d832fdb2ebede8f0968bb626727a272ae807659e39c9ff36ed689ce",
@@ -144,5 +144,15 @@
   "remaining_math_audit": [
     "Full primary-source applicability and novelty audit",
     "General mixed discriminant, explicit Brauer symbol and unmarked reconstruction"
-  ]
+  ],
+  "source_cleanup": {
+    "commit": "5348feedfc72099303841733f0e3cec0bd9b0c09",
+    "dedicated_paths_removed": 22,
+    "local_proof": "papers/sections/central_pair_finite_order_regularity.tex",
+    "complete_proof_blocks": 10,
+    "source_moduli_rebuilt_pages": 40,
+    "retained_shared_checker": "computations/verify_central_symmetry.py",
+    "remaining_source_inputs_verified": 107
+  },
+  "editorial_normalization": "Main title and filename changed; parent-source comments and auxiliary-paper URL normalized. Mathematical body and computation code preserved."
 }
