@@ -1,5 +1,5 @@
 {
-  "status": "initial content saved",
+  "status": "Destination verified; source cleanup follows remote confirmation",
   "source_head": "3526f7aeec6a5432e57a42a06d284bf06d6a2a8d",
   "source_assets": {
     ".latexmkrc": "64566ca56d832fdb2ebede8f0968bb626727a272ae807659e39c9ff36ed689ce",
@@ -29,5 +29,120 @@
     "computations/verify_central_quotient_global_geometry.py": "76a5eea1c060aabd5f1a8f25e1c60dbede1ff1d573d3965c676171d8fe461439",
     ".gitignore": "4767979de392cb8e90d85da654b9e988fe509c8aeb439a82ecefc157a394e470"
   },
-  "mathematical_full_independent_audit": false
+  "mathematical_full_independent_audit": false,
+  "source_check": [
+    {
+      "entry": "papers/cayley-sklyanin.tex",
+      "tex_inputs": 9,
+      "labels": 84,
+      "references": 130,
+      "citations": 40,
+      "bibitems": 20,
+      "sha256": {
+        "papers/cayley-sklyanin.tex": "6d8fb432d2e69e5ab71c874ac9094d5ad7586fb4ce3f85d0f6787dd290982e1a",
+        "papers/sections/central_quotient_pbw_cy.tex": "77e3f63ac2c55a05d9758474cd56a5888d9c3ea00aec1199489bb6e3eca1f8fd",
+        "papers/sections/central_quotient_center_azumaya.tex": "9ce7906eac767de5ed8e77d0facb66554f9e51f1ed2b6e9c1188aabc350dbd2f",
+        "papers/sections/central_quotient_simple_representations.tex": "7dafb0779efdf02424bb9e2de17a5fc393a6a15ccb9356d205cc22af3d4f8dc3",
+        "papers/sections/central_quotient_cayley_geometry.tex": "7779a10c9031d59813c5c00bdcbb9b7de7e3a7ddbb87eb61e8e737f1a938f622",
+        "papers/sections/central_quotient_categories_and_twist.tex": "7f9a23707cf419ad1b433f209931352ade08edbb0c8a4a5233a3e1f86416daad",
+        "papers/sections/central_quotient_chart_gluing.tex": "e431e8753741ca4869e040c1f4863bfd1645df47a03078688091b281c834970a",
+        "papers/sections/central_quotient_global_regularity.tex": "e128aad7ee47f53822406ddd10969d7c666f5da56fc57a6e7c410e90d356e5a1",
+        "papers/sections/central_quotient_exact_tails.tex": "90bb6d0eb97b8251b9070c8f558282686bf15701a2c05950f1afde8b5a9fa6cf"
+      }
+    },
+    {
+      "entry": "papers/central_fiber_discriminant.tex",
+      "tex_inputs": 1,
+      "labels": 1,
+      "references": 1,
+      "citations": 0,
+      "bibitems": 0,
+      "sha256": {
+        "papers/central_fiber_discriminant.tex": "ed8146f86d4bd82c33b5bf19d66068ef441004c9b7642abfa15b814054eb9014"
+      }
+    }
+  ],
+  "typesetting": {
+    "cayley-sklyanin": {
+      "pages": 41,
+      "errors": {
+        "references": false,
+        "citations": false,
+        "duplicates": false,
+        "overfull": false,
+        "glyphs": false
+      },
+      "pdf_sha256": "5a555ceb0da7e89f7dde5a67091941ad170abe292d82ad092254b021b539edf8"
+    },
+    "central_fiber_discriminant": {
+      "pages": 3,
+      "errors": {
+        "references": false,
+        "citations": false,
+        "duplicates": false,
+        "overfull": false,
+        "glyphs": false
+      },
+      "pdf_sha256": "2e76adc4f884709d35cb77d3791348c165cf0254e0d41428b5da7dc1ebec775c"
+    }
+  },
+  "all_44_pages_rendered_and_layout_reviewed": true,
+  "calculations": [
+    {
+      "script": "verify_center_homogeneous_symbols",
+      "exit_code": 0,
+      "seconds": 0.13
+    },
+    {
+      "script": "verify_central_fiber_discriminant",
+      "exit_code": 0,
+      "seconds": 0.42
+    },
+    {
+      "script": "verify_center_degree7",
+      "exit_code": 0,
+      "seconds": 0.8
+    },
+    {
+      "script": "verify_central_quotient_local_hessian",
+      "exit_code": 0,
+      "seconds": 0.55
+    },
+    {
+      "script": "verify_central_quotient_koszul",
+      "exit_code": 0,
+      "seconds": 0.34
+    },
+    {
+      "script": "verify_central_quotient_global_geometry",
+      "exit_code": 0,
+      "seconds": 0.45
+    },
+    {
+      "script": "verify_quotient_exact_tails",
+      "exit_code": 0,
+      "seconds": 0.36
+    },
+    {
+      "script": "verify_central_quotient_reps",
+      "exit_code": 0,
+      "seconds": 14.3
+    },
+    {
+      "script": "verify_central_quotient_extensions",
+      "exit_code": 0,
+      "seconds": 17.26
+    }
+  ],
+  "additional_calculations": {
+    "Phi_exact_Q_degree18_dim1330_passed": true,
+    "general_h_Koszul_CY_passed": true,
+    "parity_passed": true,
+    "fraction_and_flint_smoke_passed": true,
+    "weight18_mod101_rerun": false
+  },
+  "remaining_math_audit": [
+    "Full primary-source applicability and novelty audit",
+    "General mixed discriminant, explicit Brauer symbol and unmarked reconstruction"
+  ]
 }
